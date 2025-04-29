@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+html {
+    font-family: "Madimi One", sans-serif;
+}
+
+.full_width1 {
+    width: 100%;
+    height: auto;
+    background:white;
+}
+
+.fix_width1 {
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    background: white;
+    padding: 10px;
+}
+
+.content1 {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.content2qqq {
+    background: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.box-1 {
+    width: 50%;
+    background:white;
+    padding: 10px;
+    margin: 10px;
+    height: auto;
+}
+
+.box-2 {
+    width: 50%;
+    background: white;
+    padding: 10px;
+    margin: 10px;
+}
+ 
+.main_img1 {
+    width: 100%;
+    height: auto;
+    position: center;
+    top: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.button_section{
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+.full_width2 {
+    width: 100%;
+    height: auto;
+    background:white;
+}
+
+.fix_width2 {
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    background: white;
+    padding: 10px;
+}
+
+.content2 {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.box-11 {
+    width: 50%;
+    background: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.box-22{
+    width: 50%;
+    background:white;
+    text-align: center;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+ 
+.main_img2 {
+    width: 100%;
+    height: auto;
+    position: center;
+    top: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.button_section{
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+.full_width3 {
+    width: 100%;
+    height: auto;
+    background:white;
+}
+
+.fix_width3 {
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    background: white;
+    padding: 10px;
+}
+
+.content3 {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.box-111 {
+    width: 50%;
+    background:white;
+    text-align: center;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.box-222 {
+    width: 50%;
+    background: white;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-right:10px;
+    padding-left: 10px;
+}
+ 
+.main_img3 {
+    width: 100%;
+    height: auto;
+    position: center;
+    top: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.button{
+    background:#1c69d4;
+    color:white;
+    padding-right:80px;
+    padding-left: 80px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+}
+
+.button_section{
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+@media only screen and (max-width:800px) {
+    .content {
+        flex-direction: column;
+    }
+    .content1 {
+        flex-direction: column;
+    }
+    .content2 {
+        flex-direction: column;
+    }
+    .content3 {
+        flex-direction: column;
+    }
+
+    .box-1,
+    .main_img{
+        width: 100%;
+        height: auto;
+    }
+    .box-2 {
+        width: 100%;
+        height: auto;
+    }
+    .box-11 {
+        width: 100%;
+        height: auto;
+    }
+    .box-22,
+    .main_img{
+        width: 100%;
+        height: auto;
+    }
+    .box-111,
+    .main_img{
+        width: 100%;
+        height: auto;
+    }
+    .box-222 {
+        width: 100%;
+        height: auto;
+    }
+}
+
+h2{
+    font-family: "Madimi One", sans-serif;;
+    margin-bottom: 2rem;
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+p{
+    font-family: "Madimi One", sans-serif;;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+h1{
+    font-family: "Madimi One", sans-serif;;
+    font-weight: 300;
+    font-size: 3rem;
+}
